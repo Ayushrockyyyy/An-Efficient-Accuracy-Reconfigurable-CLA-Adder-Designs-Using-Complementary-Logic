@@ -1,0 +1,327 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Reading design: Adder_segment_1.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Adder_segment_1.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Adder_segment_1"
+Output Format                      : NGC
+Target Device                      : xc7vx330t-3-ffg1157
+
+---- Source Options
+Top Module Name                    : Adder_segment_1
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "\\server\departments\vlsi dept\sadguna\March 2021\An Efficient Accuracy Reconfigurable CLA Adder Designs Using Complementary Logic\AccuracyReconfigurable_CLA_Adder\SG_unit.v" into library work
+Parsing module <SG_unit>.
+Analyzing Verilog file "\\server\departments\vlsi dept\sadguna\March 2021\An Efficient Accuracy Reconfigurable CLA Adder Designs Using Complementary Logic\AccuracyReconfigurable_CLA_Adder\PG_unit.v" into library work
+Parsing module <PG_unit>.
+Analyzing Verilog file "\\server\departments\vlsi dept\sadguna\March 2021\An Efficient Accuracy Reconfigurable CLA Adder Designs Using Complementary Logic\AccuracyReconfigurable_CLA_Adder\CG_unit.v" into library work
+Parsing module <CG_unit>.
+Analyzing Verilog file "\\server\departments\vlsi dept\sadguna\March 2021\An Efficient Accuracy Reconfigurable CLA Adder Designs Using Complementary Logic\AccuracyReconfigurable_CLA_Adder\Adder_segment_1.v" into library work
+Parsing module <Adder_segment_1>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <Adder_segment_1>.
+
+Elaborating module <PG_unit>.
+
+Elaborating module <CG_unit>.
+
+Elaborating module <SG_unit>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <Adder_segment_1>.
+    Related source file is "\\server\departments\vlsi dept\sadguna\March 2021\An Efficient Accuracy Reconfigurable CLA Adder Designs Using Complementary Logic\AccuracyReconfigurable_CLA_Adder\Adder_segment_1.v".
+    Summary:
+	no macro.
+Unit <Adder_segment_1> synthesized.
+
+Synthesizing Unit <PG_unit>.
+    Related source file is "\\server\departments\vlsi dept\sadguna\March 2021\An Efficient Accuracy Reconfigurable CLA Adder Designs Using Complementary Logic\AccuracyReconfigurable_CLA_Adder\PG_unit.v".
+    Summary:
+Unit <PG_unit> synthesized.
+
+Synthesizing Unit <CG_unit>.
+    Related source file is "\\server\departments\vlsi dept\sadguna\March 2021\An Efficient Accuracy Reconfigurable CLA Adder Designs Using Complementary Logic\AccuracyReconfigurable_CLA_Adder\CG_unit.v".
+    Summary:
+	no macro.
+Unit <CG_unit> synthesized.
+
+Synthesizing Unit <SG_unit>.
+    Related source file is "\\server\departments\vlsi dept\sadguna\March 2021\An Efficient Accuracy Reconfigurable CLA Adder Designs Using Complementary Logic\AccuracyReconfigurable_CLA_Adder\SG_unit.v".
+    Summary:
+Unit <SG_unit> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Xors                                                 : 5
+ 1-bit xor2                                            : 4
+ 4-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Xors                                                 : 5
+ 1-bit xor2                                            : 4
+ 4-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Adder_segment_1> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Adder_segment_1, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : Adder_segment_1.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 19
+#      LUT2                        : 8
+#      LUT3                        : 3
+#      LUT5                        : 3
+#      LUT6                        : 4
+#      MUXF7                       : 1
+# IO Buffers                       : 28
+#      IBUF                        : 10
+#      OBUF                        : 18
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7vx330tffg1157-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice LUTs:                   18  out of  204000     0%  
+    Number used as Logic:                18  out of  204000     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     18
+   Number with an unused Flip Flop:      18  out of     18   100%  
+   Number with an unused LUT:             0  out of     18     0%  
+   Number of fully used LUT-FF pairs:     0  out of     18     0%  
+   Number of unique control sets:         0
+
+IO Utilization: 
+ Number of IOs:                          28
+ Number of bonded IOBs:                  28  out of    600     4%  
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 2.066ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 95 / 18
+-------------------------------------------------------------------------
+Delay:               2.066ns (Levels of Logic = 6)
+  Source:            x<0> (PAD)
+  Destination:       cout<0> (PAD)
+
+  Data Path: x<0> to cout<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             7   0.000   0.371  x_0_IBUF (x_0_IBUF)
+     LUT2:I0->O            3   0.043   0.560  u1/g<0>1 (g_0_OBUF)
+     LUT6:I0->O            1   0.043   0.000  u2/cout<1><3>_G (N6)
+     MUXF7:I1->O           2   0.172   0.554  u2/cout<1><3> (cout_1_OBUF)
+     LUT6:I0->O            1   0.043   0.279  u2/cout<0>1 (cout_0_OBUF)
+     OBUF:I->O                 0.000          cout_0_OBUF (cout<0>)
+    ----------------------------------------
+    Total                      2.066ns (0.301ns logic, 1.765ns route)
+                                       (14.6% logic, 85.4% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 5.74 secs
+ 
+--> 
+
+Total memory usage is 333484 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

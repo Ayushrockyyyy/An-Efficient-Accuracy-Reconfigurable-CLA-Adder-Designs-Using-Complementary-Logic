@@ -1,0 +1,22 @@
+Creating log file X:\backup data\2020-2021\PROJECTS\TITLE ID FOLDERS\TVPGTO388,
+TVPGTO389, TVMATO473. TVMATO474, TVMAFE107,
+TVPGFE98\SOURCEFILE_YMTS0239\CODE\AccuracyReconfigurable_CLA_Adder\AR_CLA_1_xpa.
+log.
+Loading device for application Rf_Device from file '7vx330t.nph' in environment
+C:\Xilinx\14.7\ISE_DS\ISE\.
+   "AR_CLA_1" is an NCD, version 3.2, device xc7vx330t, package ffg1157, speed
+-3
+
+INFO:Power:1693 - 
+   --------------------------------------------------------------
+                         The power estimate will be calculated using PRODUCTION
+   data.
+   --------------------------------------------------------------
+
+Design load 20% completeDesign load 25% completeDesign load 30% completeDesign load 60% completeDesign load 95% completeDesign load 100% completeRunning Vector-less Activity Propagation
+......
+Finished Running Vector-less Activity Propagation
+Finished Running Vector-less Activity Propagation 0 secs 
+
+Design 'AR_CLA_1.ncd' and constraints 'AR_CLA_1.pcf' opened successfully
+

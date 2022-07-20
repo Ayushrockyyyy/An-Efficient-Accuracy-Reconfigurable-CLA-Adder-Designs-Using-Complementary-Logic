@@ -1,0 +1,6 @@
+verilog work "SG_unit2.v"
+verilog work "PG_unit2.v"
+verilog work "CSL_unit2.v"
+verilog work "CG_unit2.v"
+verilog work "Adder_segment_2.v"
+verilog work "AR_CLA_2.v"

@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "Z:/March 2021/An Efficient Accuracy Reconfigurable CLA Adder Designs Using Complementary Logic/AccuracyReconfigurable_CLA_Adder/Adder_segment_1.xst" -ofn "Z:/March 2021/An Efficient Accuracy Reconfigurable CLA Adder Designs Using Complementary Logic/AccuracyReconfigurable_CLA_Adder/Adder_segment_1.syr" 

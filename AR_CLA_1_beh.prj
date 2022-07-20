@@ -1,0 +1,6 @@
+verilog work "SG_unit.v"
+verilog work "PG_unit.v"
+verilog work "CG_unit.v"
+verilog work "Adder_segment_1.v"
+verilog work "AR_CLA_1.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

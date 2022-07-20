@@ -1,0 +1,4 @@
+verilog work "SG_unit.v"
+verilog work "PG_unit.v"
+verilog work "CG_unit.v"
+verilog work "Adder_segment_1.v"
